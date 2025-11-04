@@ -1,4 +1,5 @@
-# Informe de Proyecto – Ed
+# Informe de Proyecto – Eda Cal
+Clemente Alarcon | Ricardo Anzola
 
 ## 1. Resumen
 EdaCal es una calculadora estructurada en C++11 que evalúa expresiones aritméticas infijas utilizando ADTs del curso (Lista Enlazada, Pila y Árbol Binario). El sistema soporta `+ - * / ^ sqrt()`, variables y la variable especial `ans`, genera notación postfija/prefija e imprime el árbol de expresión.
