@@ -1,4 +1,4 @@
-# Informe de Proyecto – EdaCal
+# Informe de Proyecto – Ed
 
 ## 1. Resumen
 EdaCal es una calculadora estructurada en C++11 que evalúa expresiones aritméticas infijas utilizando ADTs del curso (Lista Enlazada, Pila y Árbol Binario). El sistema soporta `+ - * / ^ sqrt()`, variables y la variable especial `ans`, genera notación postfija/prefija e imprime el árbol de expresión.
@@ -7,7 +7,7 @@ EdaCal es una calculadora estructurada en C++11 que evalúa expresiones aritmét
 El proyecto integra estructuras de datos del libro *Estructuras de Datos y Algoritmos (Saavedra & Chang, 2025)*, aplicando pilas para conversión infijo–postfijo, listas enlazadas para representar la expresión de entrada y un árbol binario para modelar la jerarquía de operaciones.
 
 ## 3. Desarrollo
-- **Estructuras:** `LinkedList`, `Stack`, `ASTNode` implementadas al estilo de los capítulos 4–6.
+- **Estructuras:** `LinkedList`, `Stack`, `ASTNode`.
 - **Librerías estándar:** `iostream`, `string`, `sstream`, `cmath`, `cctype`, `vector`, `map`, `algorithm`, `stdexcept` (todas mencionadas en el apunte).
 - **Parser:** Shunting-Yard con precedencias (sqrt > ^ > * / > + -) y asociatividad derecha para `^`.
 - **Árbol:** Construcción desde postfija con pila de nodos.

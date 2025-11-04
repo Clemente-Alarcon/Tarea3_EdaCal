@@ -12,6 +12,7 @@ int main() {
     std::string line;
 
     while (true) {
+        std::cout << "Bienvenido a EdaCal";
         std::cout << ">> ";
         if (!std::getline(std::cin, line)) break;
         if (line=="exit") break;
